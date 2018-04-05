@@ -1,75 +1,53 @@
-﻿@import url(fontiran.css);
-/* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
-
+﻿@import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+h1 {
+	font-weight: bold;
+}
 .wrapper {
 	max-width: 900px;
 	margin: 0 auto;
 }
-
 .ltr {
 	direction: ltr;
 }
-
-.rtl {
-	direction: rtl;
-}
-
 .text-right {
 	text-align: right;
 }
-
 .text-center {
 	text-align: center;
 }
-
 .text-left {
 	text-align: left;
 }
-
 .text-small {
 	font-size: 0.8em;
 }
-
 .text-xsmall {
 	font-size: 0.6em;
 }
-
 .text-large {
 	font-size: 1.2em;
 }
-
 .text-xlarge {
 	font-size: 1.4em;
 }
-
 .text-underline {
-	text-decoration: underline;
+	text-decoration:underline;
 }
-
 .text-ultralight {
 	font-weight: 200;
 }
-
 .text-light {
 	font-weight: 300;
 }
-
 .text-regular {
 	font-weight: normal;
 }
-
 .text-medium {
 	font-weight: 500;
 }
-
 .text-bold {
 	font-weight: bold;
 }
-
-.text-black {
-	font-weight: 900;
-}
-
 blockquote {
 	font-weight: 500;
 	padding: 10px;
@@ -81,7 +59,7 @@ blockquote {
 	background-color: #EFEFEF;
 	display: table;
 	margin-bottom: 30px;
-	border-right: 8px solid #FFFF33;
+	border-right: 8px solid #FFF380;
 }
 
 .mainboxnegativ {
@@ -89,7 +67,7 @@ blockquote {
 	background-color: #000000;
 	display: table;
 	margin-bottom: 30px;
-	border-right: 8px solid #FFFF33;
+	border-right: 8px solid #FFF380;
 	color: #F9F9F9;
 }
 
@@ -103,10 +81,10 @@ blockquote {
 
 .mainbox3 {
 	width: 100%;
-	background-color: #b8b8b8;
+	background-color: #DFDFDF;
 	display: table;
 	margin-bottom: 30px;
-	border-right: 8px solid #bd70ff;
+	border-right: 8px solid #FFF380;
 }
 
 .mainbox2negativ {
@@ -119,22 +97,23 @@ blockquote {
 .farsiparagraph {
 	font-size: 1em;
 	width: 47%;
-	float: right;
+	float:right;
 	padding-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
 
+}
 .englishparagraph {
 	font-size: 1em;
 	width: 47%;
 	float: left;
-	direction: ltr;
+	direction:ltr;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
 
+
+}
 .rightbox {
 	width: 60%;
 	padding-right: 20px;
@@ -144,6 +123,7 @@ blockquote {
 	margin-bottom: 0px;
 	min-width: 0px;
 	background-color: #F7F7F7;
+
 }
 
 .titelbox {
@@ -154,11 +134,13 @@ blockquote {
 	margin-left: 10px;
 	margin-bottom: 0px;
 	min-width: 0px;
-	background-color: #F2F2F2;
+	background-color: #d5d5d5;
 	color: #4B4B4B;
 }
 
+
 .lefttbox {
+
 	padding-right: 20px;
 	padding-left: 4px;
 	float: right;
@@ -185,7 +167,6 @@ blockquote {
 	color: #333333;
 	margin-top: 100px;
 }
-
 .footer {
 	font-weight: 300;
 	font-size: 0.7em;
