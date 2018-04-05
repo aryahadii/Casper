@@ -438,6 +438,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-title {
     font-family: iransharp;
+    font-size: 2em;
     margin-top: 0;
 }
 
@@ -505,7 +506,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     }
 
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) p {
-        font-size: 1.8rem;
+        font-size: 1em;
         line-height: 1.55em;
     }
 
@@ -701,8 +702,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-template .kg-card-markdown > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
+    font-size: 0.9em;
 }
 
 .post-full-content a {
