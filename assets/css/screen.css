@@ -448,7 +448,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-excerpt {
-    font-family: Georgia, serif;
+    font-family: IRANSans;
 }
 
 .post-card-meta {
@@ -576,6 +576,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-title {
+    font-family: IRANSans;
     margin: 0;
     color: color(var(--darkgrey) l(-5%));
 }
@@ -612,7 +613,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     margin: 0 auto;
     padding: 70px 100px 0;
     min-height: 230px;
-    font-family: Georgia, serif;
+    font-family: IRANSans;
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
