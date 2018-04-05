@@ -7,13 +7,17 @@
     <div class="post-card-content">
         <a class="post-card-content-link" href="{{url}}">
             <header class="post-card-header">
-                {{#if primary_tag}}
-                    <span class="post-card-tags">{{primary_tag.name}}</span>
-                {{/if}}
-                <h2 class="post-card-title">{{title}}</h2>
+                <bdi>
+                    {{#if primary_tag}}
+                        <span class="post-card-tags">{{primary_tag.name}}</span>
+                    {{/if}}
+                    <h2 class="post-card-title">{{title}}</h2>
+                </bdi>
             </header>
             <section class="post-card-excerpt">
-                <p>{{excerpt words="33"}}</p>
+                <bdi>
+                    <p>{{excerpt words="33"}}</p>
+                </bdi>
             </section>
         </a>
         <footer class="post-card-meta">
